@@ -81,7 +81,7 @@ window.addEventListener('DOMContentLoaded', event => {
       
         console.log(userData);
         // Faz a requisição para a API
-        fetch('http://127.0.0.1:3333/customer', {
+        fetch('https://backend-hjp7.onrender.com/customer', {
           method: 'POST', // Método HTTP para envio de dados
           headers: {
             'Content-Type': 'application/json' // Informa que os dados estão no formato JSON
